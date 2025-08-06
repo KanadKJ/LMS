@@ -1,0 +1,19 @@
+{
+  "name": "spinjoy_lms_apis",
+  "version": "1.0.0",
+  "description": "serves apis of the lms",
+  "license": "ISC",
+  "author": "aura_wx.studio",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0",
+    "nodemon": "^3.1.10"
+  }
+}
