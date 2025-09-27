@@ -1,0 +1,6 @@
+const mongoose = require("mongoose");
+require("dotenv").config();
+const connectDb = async () => {
+  await mongoose.connect(process.env.MONGO_CON_STR);
+};
+module.exports = connectDb;
